@@ -99,7 +99,7 @@ int main()
 std::vector<double> approximation(double x, double bound){
 	std::vector<double> k;
 	if (x == 0){
-	k.push_back(0);
+	k.push_back(1);
 	k.push_back(0);
 	k.push_back(0);
 	return k;
