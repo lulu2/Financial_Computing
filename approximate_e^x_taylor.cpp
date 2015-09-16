@@ -2,6 +2,7 @@
 #include <cmath>
 #include <vector>
 #include <stdio.h>
+#include <climits>
 
 std::vector<double> approximation(double x, double bound);
 int main()
